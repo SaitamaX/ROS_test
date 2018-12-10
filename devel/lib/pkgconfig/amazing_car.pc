@@ -1,0 +1,8 @@
+prefix=/home/jlurobot/catkin_ws/devel
+
+Name: amazing_car
+Description: Description of amazing_car
+Version: 1.2.1
+Cflags: -I/home/jlurobot/catkin_ws/devel/include -I/home/jlurobot/catkin_ws/src/amazing_car/include
+Libs: -L/home/jlurobot/catkin_ws/devel/lib -lamazing_car
+Requires: 

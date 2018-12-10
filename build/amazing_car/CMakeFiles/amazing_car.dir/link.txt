@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC     -shared -Wl,-soname,libamazing_car.so -o /home/jlurobot/catkin_ws/devel/lib/libamazing_car.so CMakeFiles/amazing_car.dir/src/serial.cc.o CMakeFiles/amazing_car.dir/src/pid.cpp.o CMakeFiles/amazing_car.dir/src/impl/unix.cc.o CMakeFiles/amazing_car.dir/src/impl/list_ports/list_ports_linux.cc.o -lrt -lpthread 

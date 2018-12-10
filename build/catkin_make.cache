@@ -1,0 +1,2 @@
+turtle_test
+-DCATKIN_DEVEL_PREFIX=/home/jlurobot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jlurobot/catkin_ws/install -G Unix Makefiles

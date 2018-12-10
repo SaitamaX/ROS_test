@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jlurobot/catkin_ws/devel/setup.sh
