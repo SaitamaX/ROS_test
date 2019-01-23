@@ -53,3 +53,22 @@ Makefile:126: recipe for target 'cmTC_2e30c/fast' failed
 make: *** [cmTC_2e30c/fast] Error 2
 
 
+Determining if the include file pgm.h exists failed with the following output:
+Change Dir: /home/jlurobot/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56fed/fast"
+make[1]: Entering directory '/home/jlurobot/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_56fed.dir/build.make CMakeFiles/cmTC_56fed.dir/build
+make[2]: Entering directory '/home/jlurobot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56fed.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_56fed.dir/CheckIncludeFile.cxx.o -c /home/jlurobot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/jlurobot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:17: fatal error: pgm.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_56fed.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_56fed.dir/CheckIncludeFile.cxx.o' failed
+make[2]: *** [CMakeFiles/cmTC_56fed.dir/CheckIncludeFile.cxx.o] Error 1
+make[2]: Leaving directory '/home/jlurobot/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_56fed/fast' failed
+make[1]: *** [cmTC_56fed/fast] Error 2
+make[1]: Leaving directory '/home/jlurobot/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+

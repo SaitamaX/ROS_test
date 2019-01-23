@@ -1,0 +1,8 @@
+prefix=/home/jlurobot/catkin_ws/install
+
+Name: turtle_snaker
+Description: Description of turtle_snaker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jlurobot/catkin_ws/install/lib 
+Requires: 

@@ -1,17 +1,77 @@
 [
 {
-  "directory": "/home/jlurobot/catkin_ws/build/joystick_drivers/wiimote",
-  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wiimote\\\" -I/home/jlurobot/catkin_ws/devel/include -I/home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIE -fPIC -std=c++11 -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall    -o CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o -c /home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/src/teleop_wiimote.cpp",
-  "file": "/home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/src/teleop_wiimote.cpp"
+  "directory": "/home/jlurobot/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
 },
 {
-  "directory": "/home/jlurobot/catkin_ws/build/joystick_drivers/wiimote",
-  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wiimote\\\" -I/home/jlurobot/catkin_ws/devel/include -I/home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIE -fPIC -std=c++11 -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall    -o CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o -c /home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/src/wiimote_controller.cpp",
-  "file": "/home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/src/wiimote_controller.cpp"
+  "directory": "/home/jlurobot/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
 },
 {
-  "directory": "/home/jlurobot/catkin_ws/build/joystick_drivers/wiimote",
-  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wiimote\\\" -I/home/jlurobot/catkin_ws/devel/include -I/home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIE -fPIC -std=c++11 -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall    -o CMakeFiles/wiimote_node.dir/src/stat_vector_3d.cpp.o -c /home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/src/stat_vector_3d.cpp",
-  "file": "/home/jlurobot/catkin_ws/src/joystick_drivers/wiimote/src/stat_vector_3d.cpp"
+  "directory": "/home/jlurobot/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "file": "/usr/src/gmock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/gtest/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/gtest/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/navigation_tutorials/laser_scan_publisher_tutorial",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"laser_scan_publisher_tutorial\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/laser_scan_publisher.dir/src/laser_scan_publisher.cpp.o -c /home/jlurobot/catkin_ws/src/navigation_tutorials/laser_scan_publisher_tutorial/src/laser_scan_publisher.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/navigation_tutorials/laser_scan_publisher_tutorial/src/laser_scan_publisher.cpp"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/navigation_tutorials/point_cloud_publisher_tutorial",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"point_cloud_publisher_tutorial\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/point_cloud_publisher.dir/src/point_cloud_publisher.cpp.o -c /home/jlurobot/catkin_ws/src/navigation_tutorials/point_cloud_publisher_tutorial/src/point_cloud_publisher.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/navigation_tutorials/point_cloud_publisher_tutorial/src/point_cloud_publisher.cpp"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/navigation_tutorials/odometry_publisher_tutorial",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"odometry_publisher_tutorial\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/odometry_publisher.dir/src/odometry_publisher.cpp.o -c /home/jlurobot/catkin_ws/src/navigation_tutorials/odometry_publisher_tutorial/src/odometry_publisher.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/navigation_tutorials/odometry_publisher_tutorial/src/odometry_publisher.cpp"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/navigation_tutorials/robot_setup_tf_tutorial",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_setup_tf_tutorial\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o -c /home/jlurobot/catkin_ws/src/navigation_tutorials/robot_setup_tf_tutorial/src/tf_listener.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/navigation_tutorials/robot_setup_tf_tutorial/src/tf_listener.cpp"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/navigation_tutorials/robot_setup_tf_tutorial",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_setup_tf_tutorial\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o -c /home/jlurobot/catkin_ws/src/navigation_tutorials/robot_setup_tf_tutorial/src/tf_broadcaster.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/navigation_tutorials/robot_setup_tf_tutorial/src/tf_broadcaster.cpp"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/navigation_tutorials/simple_navigation_goals_tutorial",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"simple_navigation_goals_tutorial\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/simple_navigation_goals.dir/src/simple_navigation_goals.cpp.o -c /home/jlurobot/catkin_ws/src/navigation_tutorials/simple_navigation_goals_tutorial/src/simple_navigation_goals.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/navigation_tutorials/simple_navigation_goals_tutorial/src/simple_navigation_goals.cpp"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/turtle_snaker",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtle_snaker\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/Snaker.dir/src/Snaker.cpp.o -c /home/jlurobot/catkin_ws/src/turtle_snaker/src/Snaker.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/turtle_snaker/src/Snaker.cpp"
+},
+{
+  "directory": "/home/jlurobot/catkin_ws/build/turtle_test",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtle_test\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/jlurobot/catkin_ws/src/turtle_test/include    -o CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o -c /home/jlurobot/catkin_ws/src/turtle_test/src/turtle_controller.cpp",
+  "file": "/home/jlurobot/catkin_ws/src/turtle_test/src/turtle_controller.cpp"
 }
 ]
